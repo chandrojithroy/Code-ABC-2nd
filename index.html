@@ -9,50 +9,45 @@
 </head>
 
 <body>
-      <!-- <section class="max-w-7xl mx-auto ">
-            <div class="">
-                  <div class="text-center bg-[#E2ECFF] flex flex-col gap-6">
-                        <img src="./images/code abc.jpg" alt="" class="w-[120px] h-[120px] mx-auto" />
-                        <h1 class="font-bold text-3xl text-black">Let us help you run your 
-                              <br>own platform</h1>
-                        <p class="font-normal text-sm text-black">Our registration process is quicker than other 
-                              <br>edtech platform</p>
-                  </div>
-
-
-                  <div>
-                        
-                  </div>
-            </div>
-      </section> -->
-
-      <section class="w-screen min-h-screen bg-red-300 flex justify-center items-center">
-            <div class="max-w-5xl mx-auto w-full flex  justify-center items-center bg-white  ">
+      <section class="w-screen min-h-screen flex justify-center items-center ">
+            <div class="max-w-5xl mx-auto w-full flex flex-col md:flex-row bg-white gap-6 p-10 rounded-2xl shadow-2xl ">
                   <!-- fast part -->
-                  <div>
-                        <img src="./images/code abc.jpg" alt="" class="w-28 h-28 mx-auto" />
-                        <h1>Let us help you run your own platform</h1>
-                        <p>Our registration process is quicker than other edtech platform</p>
+                  <div class="md:w-1/2 w-full bg-[#E2ECFF] rounded-xl flex justify-center items-center ">
+                        <div class="p-10 flex flex-col justify-center items-center gap-6 ">
+                              <img src="./images/code abc.jpg" alt="" class="w-28 h-28 mx-auto rounded-2xl" />
+                              <h1 class="text-3xl font-bold text-center">Let us help you run your own platform</h1>
+                              <p class="text-sm text-center">Our registration process is quicker than other <br> process
+                                    platform</p>
+                        </div>
                   </div>
 
                   <!-- second part -->
-                  <div>
-                        <h1>Get Started</h1>
-                        <p>Create your account now!</p>
-                        <form action="#">
+                  <div class="md:w-1/2 w-full py-10 ">
+                        <h1 class="text-3xl font-bold">Get Started</h1>
+                        <p class="text-lg pb-10">Create your account now!</p>
+                        <form action="#" class="flex flex-col gap-4">
                               <div>
-                                    <label for="fName">Full Name:</label>
-                                    <input type="text" name="fName" id="fName" placeholder="Roy" />
+                                    <label for="fName" class="text-[#A5A5A5] block pb-4">Full Name:</label>
+                                    <input type="text" name="fName" id="fName" placeholder="Roy"
+                                          class="w-full border rounded-md py-4 px-2 border-[#A5A5A5] focus:outline-none" />
                               </div>
                               <div>
-                                    <label for="fEmail">Email:</label>
-                                    <input type="email" name="fEmail" id="fEmail" placeholder="Roy@gmail.com" />
+                                    <label for="fEmail" class="text-[#A5A5A5] block pb-4">Email:</label>
+                                    <input type="email" name="fEmail" id="fEmail" placeholder="Roy@gmail.com"
+                                          class="w-full border rounded-md py-4 px-2 border-[#A5A5A5] focus:outline-none" />
                               </div>
                               <div>
-                                    <label for="fPass">Password:</label>
-                                    <input type="text" name="fPass" id="fPass" />
+                                    <label for="fPass" class="text-[#A5A5A5] block pb-4">Password:</label>
+                                    <input type="password" name="fPass" id="fPass"
+                                          class="w-full border rounded-md py-4 px-2 border-[#A5A5A5] focus:outline-none" />
+                              </div>
+
+                              <!-- btn1 -->
+                              <div>
+                                    <button class="w-full font-bold bg-blue-600 py-4 rounded text-white">Sign Up</button>
                               </div>
                         </form>
+                        <p class="text-center py-10">Already a member? <span class="text-[#0082DF] font-bold">Sign in</span></p>
                   </div>
             </div>
 
